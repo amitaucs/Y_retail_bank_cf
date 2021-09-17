@@ -1,0 +1,7 @@
+---
+applications:
+  - name: d2d-retailBank
+    path: ./target/account-1.0.0.jar
+    memory: 1G
+    env:
+      JBP_CONFIG_OPEN_JDK_JRE: '{ jre: { version: 11.+ } }'

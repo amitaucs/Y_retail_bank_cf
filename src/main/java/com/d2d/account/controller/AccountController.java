@@ -17,7 +17,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @Slf4j
 @AllArgsConstructor
-@RequestMapping("/retailBank/v1")
+@RequestMapping("/retailBank/v2")
 @Tag(name = "New Account")
 @Api(tags = {"New Account"})
 public class AccountController {

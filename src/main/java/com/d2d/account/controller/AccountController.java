@@ -35,7 +35,8 @@ public class AccountController {
             ResponseEntity.badRequest().build();
         }
 
-        return  ResponseEntity.status(HttpStatus.OK).body("Hello "+customerName+ " welcome..");
+        return  ResponseEntity.status(HttpStatus.OK).body(  "<html>\n" + "<header><title>Welcome</title></header>\n" +
+                "<body>\n <b><p style=\"color:green\">" +"Hi " + customerName +" welcome \n" + "</p></b></body>\n" + "</html>");
 
     }
 }

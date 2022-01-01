@@ -1,2 +1,15 @@
 server:
   port: 9001
+spring:
+  application:
+    name: Retail-Bank
+  datasource:
+    url: jdbc:postgresql://localhost:5432/retailBank
+    username: user
+    password: root123
+  jpa:
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+    generate-ddl: true
+    show-sql: true
